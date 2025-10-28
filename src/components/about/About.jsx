@@ -16,7 +16,7 @@ const About = () => {
             React, Tailwind, and Node.js.
           </p>
           <a
-            download="SayyidMarvanVT_Resume.pdf"
+            download="Janagan_Resume.pdf"
             href={resume}
             className="button button--flex"
           >

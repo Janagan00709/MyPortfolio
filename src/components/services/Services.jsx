@@ -1,4 +1,3 @@
-import React from "react";
 import ServiceItem from "./ServiceItem";
 import "./service.css";
 import { laptop, responsive, web } from "../../assets/assets";

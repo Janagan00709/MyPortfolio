@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { useDencrypt } from "use-dencrypt-effect";
 
 const decryptOptions = {
