@@ -15,7 +15,7 @@ import img8 from "../../assets/Projects/ToDo.png";
 import img9 from "../../assets/Projects/CTF.png";
 import img10 from "../../assets/Projects/Ewaste_Dashboard1.png";
 import img11 from "../../assets/Projects/Calculator.png";
-import img12 from "../../assets/Projects/Seamstylers_product.png";
+import img12 from "../../assets/Projects/Seamstylers_Product.png";
 import img13 from "../../assets/Projects/Principal_Portfolio.png";
 import img14 from "../../assets/Projects/Ewaste_Gadgets.png";
 import img15 from "../../assets/Projects/Dottel_about.png";
