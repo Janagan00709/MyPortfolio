@@ -19,17 +19,19 @@ const DarkMode = () => {
     else setLightMode();
   };
   
-  // Load saved theme on component mount
+  // Load saved theme on component mount - DEFAULT TO DARK
   useEffect(() => {
     const savedTheme = localStorage.getItem("selectedTheme");
     const checkbox = document.getElementById("darkmode-toggle");
     
-    if (savedTheme === "dark") {
-      setDarkMode();
-      if (checkbox) checkbox.checked = true;
-    } else {
+    if (savedTheme === "light") {
+      // Only switch to light if explicitly saved
       setLightMode();
       if (checkbox) checkbox.checked = false;
+    } else {
+      // Default to dark mode (including first visit)
+      setDarkMode();
+      if (checkbox) checkbox.checked = true;
     }
   }, []);
   
@@ -40,6 +42,7 @@ const DarkMode = () => {
         type="checkbox"
         id="darkmode-toggle"
         onChange={toggleTheme}
+        defaultChecked={true}
       />
       <label className="dark_mode_label" htmlFor="darkmode-toggle">
         <img src={Sun} alt="" className="sun"/>
