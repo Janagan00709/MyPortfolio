@@ -12,7 +12,7 @@ import img7 from "../../assets/Projects/PortFolio.png";
 import img8 from "../../assets/Projects/Servyou.png";
 import img9 from "../../assets/Projects/Seamstylers.png";
 import img10 from "../../assets/Projects/DoorLock.png";
-import img11 from "../../assets/Projects/TinDog.png";
+import img11 from "../../assets/Projects/Tindog.png";
 
 
 const projects = [
