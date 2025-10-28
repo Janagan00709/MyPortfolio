@@ -13,7 +13,7 @@ import ScrollUp from "./components/scrollUp/ScrollUp";
 import Projects from "./components/Projects/Photography";
 import Certificate from "./components/Certificate/Certificate";
 import Particles from "./components/Particles/Particles";
-import { Analytics } from "@vercel/analytics/next"
+
 
 const App = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -71,7 +71,6 @@ const App = () => {
 
       <Footer />
       <ScrollUp />
-      <Analytics />
       
     </>
   );
