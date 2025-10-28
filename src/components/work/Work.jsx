@@ -1,3 +1,5 @@
+/** @format */
+
 import { useState } from "react";
 import "./work.css";
 import Projects from "./Projects";
@@ -14,13 +16,12 @@ import img9 from "../../assets/Projects/Seamstylers.png";
 import img10 from "../../assets/Projects/DoorLock.png";
 import img11 from "../../assets/Projects/Tindog.png";
 
-
 const projects = [
   {
     name: "Smart Door Lock (AI & IoT)",
     description:
       "Developed an AI-powered smart door lock using YOLOv8n and Raspberry Pi for real-time person detection and automated access control. Designed to enhance security through intelligent scheduling and IoT integration..",
-    stacks: ["Yolov3","IOT","AI","HTML", "CSS", "Bootstrap", "JavaScript"],
+    stacks: ["Yolov3", "IOT", "AI", "HTML", "CSS", "Bootstrap", "JavaScript"],
     link: "https://github.com/janagan00709/Smart_Door_Lock",
     github: "https://github.com/janagan00709/Smart_Door_Lock",
     image: img10,
@@ -41,7 +42,7 @@ const projects = [
     name: "E-Waste Management System",
     description:
       "A comprehensive e-waste management platform enabling users to schedule pickups, track waste processing, and access educational resources on sustainable disposal practices.",
-    stacks: ["HTML", "CSS", "Bootstrap", "JavaScript" , "PHP", "MySQL"],
+    stacks: ["HTML", "CSS", "Bootstrap", "JavaScript", "PHP", "MySQL"],
     link: "https://github.com/janagan00709/E-waste",
     github: "https://github.com/janagan00709/E-waste",
     image: img6,
@@ -71,7 +72,7 @@ const projects = [
     name: "ServYou (Hackathon Project)",
     description:
       "Developed a token generation web app for food distribution in closed organizations like colleges or IT companies. Focused on reducing manual effort and streamlining service delivery.",
-    stacks: ["HTML", "CSS", "Bootstrap", "JavaScript" , "PHP", "MySQL"],
+    stacks: ["HTML", "CSS", "Bootstrap", "JavaScript", "PHP", "MySQL"],
     link: "https://janagan00709.github.io/servyou/",
     github: "https://github.com/janagan00709/servyou",
     image: img8,
@@ -81,7 +82,7 @@ const projects = [
     name: "Capture The Flag (CTF) Website",
     description:
       "Collaborated with a team to build a cybersecurity competition website using HTML, CSS, JS, PHP, and MySQL. Enabled real-time event management and leaderboard tracking.",
-    stacks: ["HTML", "CSS", "Bootstrap", "JavaScript" , "PHP", "MySQL"],
+    stacks: ["HTML", "CSS", "Bootstrap", "JavaScript", "PHP", "MySQL"],
     link: "https://github.com/janagan00709/Capture-the-flag",
     github: "https://github.com/janagan00709/Capture-the-flag",
     image: img4,
@@ -113,7 +114,7 @@ const projects = [
     name: "Old Portfolio Website",
     description:
       "Developed a personal portfolio using HTML, CSS, and JS to display projects and achievements. Served as a foundation for your new React-based version.",
-    stacks: ["HTML", "CSS", "Bootstrap", "JavaScript"],    
+    stacks: ["HTML", "CSS", "Bootstrap", "JavaScript"],
     link: "https://janagan00709.github.io/Portfolio/",
     github: "https://github.com/janagan00709/Portfolio",
     image: img7,
@@ -140,7 +141,6 @@ const projects = [
   //   image: disney,
   //   category: "Fullstack,
   // },
-  
 ];
 
 const Work = () => {
