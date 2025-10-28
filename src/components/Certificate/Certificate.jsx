@@ -27,107 +27,107 @@ const Certificate = () => {
     {
       id: 1,
       src: img1,
-      alt: "Photography 1",
-      title: "ICSSS",
-      description: "Capturing the golden hour beauty",
+      alt: "ICSSS Certificate",
+      title: "ICSSS Conference",
+      description: "Presented innovative research at the International Conference on Smart Systems and Solutions",
     },
     {
       id: 2,
       src: img2,
-      alt: "Photography 2",
-      title: "Data Analystics",
-      description: "Stories from the city streets",
+      alt: "Data Analytics Certificate",
+      title: "Data Analytics",
+      description: "Mastered data analysis techniques, visualization tools, and statistical modeling for business insights",
     },
     {
       id: 3,
       src: img3,
-      alt: "Photography 3",
-      title: "Web Development",
-      description: "The peaks at dawn",
+      alt: "Udemy Web Development Certificate",
+      title: "Web Development - Udemy",
+      description: "Completed comprehensive full-stack web development bootcamp covering HTML, CSS, JavaScript, and modern frameworks",
     },
     {
       id: 4,
       src: img4,
-      alt: "Photography 4",
-      title: "Internshala Web Development",
-      description: "Celebrating traditions",
+      alt: "Web Development Certificate",
+      title: "Web Development - Internshala",
+      description: "Successfully completed intensive training in responsive web design and frontend development best practices",
     },
     {
       id: 5,
       src: img5,
-      alt: "Photography 5",
-      title: "DBMS",
-      description: "Nature in its purest form",
+      alt: "DBMS Certificate",
+      title: "Database Management Systems",
+      description: "Gained expertise in relational databases, SQL queries, normalization, and database optimization techniques",
     },
     {
       id: 6,
       src: img6,
-      alt: "Photography 6",
-      title: "C Language",
-      description: "Urban nightscapes",
+      alt: "C Language Certificate",
+      title: "C Programming Language",
+      description: "Built strong foundation in procedural programming, memory management, and algorithm implementation in C",
     },
     {
       id: 7,
       src: img7,
-      alt: "Photography 7",
-      title: "Java ",
-      description: "Capturing raw feelings",
+      alt: "Java Certificate",
+      title: "Java Programming",
+      description: "Developed proficiency in object-oriented programming, Java frameworks, and enterprise application development",
     },
     {
       id: 8,
       src: img8,
-      alt: "Photography 8",
-      title: "Python",
-      description: "Adventures around the world",
+      alt: "Python Certificate",
+      title: "Python Programming",
+      description: "Acquired advanced Python skills including data structures, automation, and building scalable applications",
     },
     {
       id: 9,
       src: img9,
-      alt: "Photography 9",
-      title: "National Hackathon",
-      description: "Preserving our roots",
+      alt: "Hackathon Certificate",
+      title: "National Level Hackathon",
+      description: "Demonstrated problem-solving abilities and teamwork by developing innovative solutions under time constraints",
     },
     {
       id: 10,
       src: img10,
-      alt: "Photography 10",
-      title: "UX Design",
-      description: "The beauty of biodiversity",
+      alt: "UX Design Certificate",
+      title: "UI/UX Design",
+      description: "Learned user-centered design principles, wireframing, prototyping, and creating intuitive user experiences",
     },
     {
       id: 11,
       src: img11,
-      alt: "Photography 11",
-      title: "Packet Tracker",
-      description: "Design meets function",
+      alt: "Packet Tracer Certificate",
+      title: "Cisco Packet Tracer",
+      description: "Completed hands-on training in network simulation, routing protocols, and network infrastructure design",
     },
     {
       id: 12,
       src: img12,
-      alt: "Photography 12",
-      title: "Venture Capitalist Seminar",
-      description: "Where earth meets sky",
+      alt: "Venture Capital Certificate",
+      title: "Venture Capital Seminar",
+      description: "Explored startup ecosystem, funding strategies, and entrepreneurial mindset through industry expert sessions",
     },
     {
       id: 13,
       src: img13,
-      alt: "Photography 13",
-      title: "Cloud Workshop",
-      description: "The beauty of biodiversity",
+      alt: "Cloud Computing Certificate",
+      title: "Cloud Computing Workshop",
+      description: "Gained practical knowledge in cloud architecture, deployment models, and cloud service management",
     },
     {
       id: 14,
       src: img14,
-      alt: "Photography 14",
-      title: "PHP and MySql",
-      description: "Design meets function",
+      alt: "PHP MySQL Certificate",
+      title: "PHP and MySQL",
+      description: "Developed dynamic web applications using server-side scripting and database integration with PHP and MySQL",
     },
     {
       id: 15,
       src: img15,
-      alt: "Photography 15",
-      title: "Python Programming",
-      description: "Where earth meets sky",
+      alt: "Python Programming Certificate",
+      title: "Advanced Python Programming",
+      description: "Enhanced Python expertise with advanced concepts including decorators, generators, and asynchronous programming",
     },
   ];
 
@@ -172,7 +172,6 @@ const Certificate = () => {
         {/* Header */}
         <div className="header-section">
           <h1 className="main-title">Certificates</h1>
-          {/* <p className="subtitle">Capturing moments, emotions, and stories through my lens</p> */}
         </div>
 
         {/* Main Image Display */}
@@ -186,7 +185,6 @@ const Certificate = () => {
 
             {/* Image Info Overlay */}
             <div className="image-info">
-              {/* <span className="category-badge">{images[currentIndex].category}</span> */}
               <h2 className="image-title">{images[currentIndex].title}</h2>
               <p className="image-description">
                 {images[currentIndex].description}
