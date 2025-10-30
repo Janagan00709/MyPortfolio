@@ -14,11 +14,8 @@ It acts as a digital resume to help recruiters and collaborators learn more abou
 
 ## 🧠 Tech Stack
 - **Frontend:** React.js, HTML5, CSS3, JavaScript (ES6+)
-- **Styling:** Tailwind CSS / Custom CSS
-- **Deployment:** GitHub Pages / Vercel / Netlify
-
----
-
+- **Styling:** CSS
+- **Deployment:** GitHub & Vercel 
 ## ✨ Features
 - 🎯 Fully responsive and interactive user interface  
 - 💻 Project showcase with live demos and GitHub links  
